@@ -1,0 +1,57 @@
+.box-contact{
+    display:flex;
+    justify-content: center;
+    margin-left: 375px;
+    margin-right: 375px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 3px;
+    padding-top: 5px;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+}
+.item h3{
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+.item p{
+    width: 200px;
+    text-align: center;
+    padding-top: 15px;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+h1{
+    text-align: center;
+}
+.rules_container{
+    margin-bottom: 30px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rules_container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}

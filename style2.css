@@ -1,0 +1,33 @@
+.box1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+width: 100%;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 90px;
+/* identical to box height, or 112% */
+
+text-align: center;
+font-variant: small-caps;
+
+color: #000000;
+}

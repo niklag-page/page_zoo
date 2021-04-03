@@ -1,0 +1,123 @@
+.flex-container-1{
+    display:flex;
+    justify-content: space-around;
+}
+.menu{
+    margin-top: 100px;
+}
+.menu a{
+    color: black;
+    background-color: ;
+    font-family: 'Hanalei', cursive;
+    font-size: 60px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ff914d;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header-text{
+    background-color: orange;
+    width: 500px;
+    text-align: center;
+    margin: 100px;
+}
+.item{
+    background-color: orangered;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+.map{
+    width: 100%;
+}
+.item img{
+    width: 100%;
+    height: 100%
+}
+
+.main_footer{
+    display:flex;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+.footer_image{
+    width:50%;
+    height: 400px;
+}
+.footer_form{
+    width:50%;
+    height: 400px;
+}
+.transparent{
+    position: relative;
+    padding: 60px 50px;
+    background-size: cover;
+
+}
+.transparent:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, .5);
+}
+
+.form_inner{
+    position: relative;
+
+}
+.form_inner h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+.form_inner label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-transform: lowercase;
+}
+.form_inner input{
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 0ch;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0, .2);
+    color: white;
+}
+.form_inner input[type="submit"]{
+
+}
+.form_inner textarea{
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 0ch;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0, .2);
+    color: white;
+    resize: none;
+}
